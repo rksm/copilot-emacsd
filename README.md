@@ -1,5 +1,7 @@
 # Copilot setup for Emacs
 
+This accompanies this [blog post](https://robert.kra.hn/posts/2023-02-22-copilot-emacs-setup/).
+
 This is a ready-to-roll setup based on [zerolfx/copilot.el](https://github.com/zerolfx/copilot.el).
 It customizes Copilot a bit to be more convenient (for me at least).
 Some features:
