@@ -2,6 +2,7 @@
 ;; -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 (require 'package)
+(require 'cl)
 
 (setq user-init-file (or load-file-name (buffer-file-name)))
 (setq user-emacs-directory (file-name-directory user-init-file))
@@ -28,7 +29,6 @@
     (package-refresh-contents)
     (mapc (lambda (pkg) (package-install pkg)) pkg-list)))
 
-(require 'cl)
 (require 'use-package)
 
 ;; -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
